@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plenary Speakers | I3CSET-2026</title>
+
+    <!-- Meta SEO -->
+    <meta name="keywords" content="I3CSET-2026, Plenary Speakers, Keynotes, Experts, Computing, Communication, Energy Technologies">
+    <meta name="description" content="Meet the world-renowned plenary speakers for I3CSET-2026 conference.">
+
+    <script>
+        if (localStorage.getItem('theme') === 'light') {
+            document.documentElement.classList.add('light-mode');
+            document.addEventListener('DOMContentLoaded', () => document.body.classList.add('light-mode'));
+        }
+    </script>
+    <script src="js/ticker-data.js" defer></script>
+    <script src="js/footer-data.js" defer></script>
+    <script src="js/dates-data.js" defer></script>
+    <script src="js/nav-data.js" defer></script>
+    <script src="js/modern.js" defer></script>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/modern.css">
+
+    <style>
+        .glass-effect {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #news-ticker-container {
+            background: var(--primary);
+            color: var(--text);
+            padding: 8px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            z-index: 1001;
+            border-bottom: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .ticker-content {
+            display: inline-block;
+            padding-left: 100%;
+            animation: ticker 30s linear infinite;
+        }
+
+        .ticker-item {
+            display: inline-block;
+            margin-right: 50px;
+            font-weight: 500;
+        }
+
+        @keyframes ticker {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .page-header {
+            background: linear-gradient(rgba(2,6,23,0.85), rgba(2,6,23,0.85)), url('images/hotel1-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        /* Speaker Card Styling */
+        .speaker-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 3rem;
+            transition: var(--transition);
+        }
+
+        .speaker-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 30px rgba(220, 38, 38, 0.15);
+        }
+
+        .speaker-header {
+            padding: 2rem;
+            background: rgba(220, 38, 38, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .speaker-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            object-fit: cover;
+            border: 4px solid var(--accent);
+            flex-shrink: 0;
+        }
+
+        .speaker-title-info h2 {
+            font-size: 1.75rem;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+        }
+
+        .speaker-title-info .talk-title {
+            font-size: 1.1rem;
+            color: var(--accent);
+            font-weight: 600;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .speaker-title-info .affiliation {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .speaker-body {
+            padding: 2rem;
+        }
+
+        .speaker-bio {
+            line-height: 1.8;
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        .keynote-badge {
+            background: var(--secondary);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        @media (max-width: 768px) {
+            .speaker-header { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top News Ticker -->
+    <div id="ticker-placeholder"></div>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container mx-auto">
+            <h1 class="conference-title">Plenary Speakers</h1>
+            <p class="conference-subtitle">Visionaries shaping the future of technology</p>
+        </div>
+    </header>
+
+    <!-- Sticky Navigation -->
+    <nav id="nav-placeholder" class="modern-nav glass-effect"></nav>
+
+    <!-- Main Content Area -->
+    <div class="main-content container mx-auto px-4 max-w-7xl" style="display: block;">
+
+        <!-- Speaker 1 -->
+        <div class="speaker-card">
+            <div class="speaker-header">
+                <img src="images/plenary_speakers/khargonekar.png" alt="Pramod Khargonekar" class="speaker-pic" onerror="this.src='https://ui-avatars.com/api/?name=Pramod+Khargonekar&background=0f172a&color=3b82f6'">
+                <div class="speaker-title-info">
+                    <h2>Professor Pramod Khargonekar</h2>
+                    <div class="talk-title">"Opportunities and Challenges in Integration of Renewable Generation in Electric Grids"</div>
+                    <div class="affiliation">Vice Chancellor for Research, University of California, Irvine</div>
+                </div>
+            </div>
+            <div class="speaker-body">
+                <div class="speaker-bio">
+                    Pramod P. Khargonekar received his BTech degree from IIT Bombay and PhD from the University of Florida. He has served in prestigious positions at the University of Minnesota, University of Michigan, and the U.S. National Science Foundation. His current research focuses on renewable energy, electric grids, and systems control theory. He is a Fellow of IEEE and IFAC and a recipient of numerous awards including the NSF Presidential Young Investigator Award and the IEEE CSS George S. Axelby Best Paper Award.
+                </div>
+            </div>
+        </div>
+
+        <!-- Speaker 2 -->
+        <div class="speaker-card">
+            <div class="speaker-header">
+                <img src="images/plenary_speakers/rizzoni.png" alt="Giorgio Rizzoni" class="speaker-pic" onerror="this.src='https://ui-avatars.com/api/?name=Giorgio+Rizzoni&background=0f172a&color=3b82f6'">
+                <div class="speaker-title-info">
+                    <h2>Professor Giorgio Rizzoni</h2>
+                    <div class="talk-title">"Connected and automated vehicle and powertrain control technologies to achieve unprecedented fuel economy gains"</div>
+                    <div class="affiliation">Director, Center for Automotive Research, The Ohio State University</div>
+                </div>
+            </div>
+            <div class="speaker-body">
+                <div class="speaker-bio">
+                    Giorgio Rizzoni is the Ford Motor Company Chair in ElectroMechanical Systems at OSU. Since 1999, he has directed the Center for Automotive Research (CAR). His research covers modeling, control, and diagnosis of advanced vehicles, focusing on energy efficiency and the interaction between vehicles and the power grid. He is a Fellow of SAE and IEEE, and has served as director for several DOE Graduate Automotive Technology Education Centers.
+                </div>
+            </div>
+        </div>
+
+        <!-- Keynote Speaker -->
+        <div class="speaker-card" style="border-color: var(--secondary);">
+            <div class="speaker-header" style="background: rgba(16, 185, 129, 0.05);">
+                <img src="images/plenary_speakers/petros.png" alt="Petros Ioannou" class="speaker-pic" style="border-color: var(--secondary);" onerror="this.src='https://ui-avatars.com/api/?name=Petros+Ioannou&background=0f172a&color=10b981'">
+                <div class="speaker-title-info">
+                    <span class="keynote-badge">Keynote Address</span>
+                    <h2>Professor Petros Ioannou</h2>
+                    <div class="talk-title" style="color: var(--secondary);">"Connected Vehicles: Closing the loop with the highway"</div>
+                    <div class="affiliation">Director, Center for Advanced Transportation Technologies, USC</div>
+                </div>
+            </div>
+            <div class="speaker-body">
+                <div class="speaker-bio">
+                    Petros A. Ioannou is the A.V. 'Bal' Balakrishnan Chair Professor at USC. He is the recipient of the 2016 IEEE Control Systems Society Transition to Practice Award. His research interests include adaptive control, vehicle dynamics, and Intelligent Transportation Systems (ITS). He is a Fellow of IEEE, IFAC, and IET, and has authored over 400 research papers and 8 books.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#news-ticker-container').hover(function () {
+                $('.ticker-content').css('animation-play-state', 'paused');
+            }, function () {
+                $('.ticker-content').css('animation-play-state', 'running');
+            });
+        });
+    </script>
+</body>
+
+</html>
+
