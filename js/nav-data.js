@@ -1,9 +1,18 @@
 const navHTML = `
 <div class="nav-container px-4">
-    <a href="index.html" style="display: flex; align-items: center; text-decoration: none; background: white; padding: 6px 14px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.2);">
-        <img src="images/gcet_logo.png" alt="GCET Logo" style="height: 40px; width: auto; display: block;">
-    </a>
-    <ul class="nav-links">
+    <div class="nav-brand-group">
+        <a href="index.html" class="nav-logo-link">
+            <img src="images/gcet_logo.png" alt="GCET Logo" class="nav-logo-img">
+        </a>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation">
+        <i class="fa fa-bars show-icon"></i>
+        <i class="fa fa-times hide-icon"></i>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
         <li><a href="index.html" id="nav-home">Home</a></li>
         <li><a href="plenary-speakers.html" id="nav-speakers">Speakers</a></li>
         <li><a href="technical-program.html" id="nav-program">Program</a></li>
@@ -14,11 +23,15 @@ const navHTML = `
         <li><a href="sponsors.html" id="nav-sponsors">Sponsors</a></li>
         <li><a href="prevconf.html" id="nav-prev">History</a></li>
     </ul>
-    <button id="theme-toggle" class="theme-toggle" title="Toggle Light/Dark Mode">
-        <i class="fa fa-moon dark-mode-icon"></i>
-        <i class="fa fa-sun light-mode-icon"></i>
-    </button>
-</div>`;
+
+    <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" title="Toggle Light/Dark Mode">
+            <i class="fa fa-moon dark-mode-icon"></i>
+            <i class="fa fa-sun light-mode-icon"></i>
+        </button>
+    </div>
+</div>
+<div class="nav-overlay" id="nav-overlay"></div>`;
 
 function injectNav() {
     const navPlaceholder = document.getElementById('nav-placeholder');

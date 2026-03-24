@@ -20,19 +20,22 @@ const footerHTML = `
         </div>
         <div class="footer-section">
             <h4>Connect</h4>
-            <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-                <a href="https://www.instagram.com/i3cset_gcet/" target="_blank"><i
-                        class="fab fa-2x fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/galgotias-college-of-engineering-and-technology-greater-noida/"
-                    target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
-                <a href="mailto:i3cset2026@galgotiacollege.edu"><i class="fa fa-2x fa-envelope"></i></a>
-            </div>
+            <ul>
+                <li><a href="https://www.instagram.com/i3cset_gcet/" target="_blank"><i
+                            class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.linkedin.com/company/galgotias-college-of-engineering-and-technology-greater-noida/"
+                        target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="mailto:i3cset2026@galgotiacollege.edu"><i class="fa fa-envelope"></i> Email Us</a></li>
+            </ul>
             <p style="margin-top: 2rem; color: var(--text-muted); font-size: 0.8rem;">
                 &copy; 2026 I3CSET Conference. All Rights Reserved.
             </p>
         </div>
     </div>
-</footer>`;
+</footer>
+<div id="back-to-top" class="back-to-top" title="Back to Top">
+    <i class="fa fa-arrow-up"></i>
+</div>`;
 
 function injectFooter() {
     const footerPlaceholder = document.getElementById('footer-placeholder');

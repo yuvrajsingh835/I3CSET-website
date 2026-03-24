@@ -242,11 +242,10 @@
             <section class="section-card">
                 <h2 class="section-title welcome-card"><i class="fa fa-gem"></i> Partnership Opportunities</h2>
                 
-                <!-- Row 1: Premier Tiers (3 Cards) -->
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
                     
                     <!-- Platinum -->
-                    <div class="tier-card">
+                    <div class="tier-card" style="flex: 1; max-width: 400px; min-width: 320px;">
                         <div class="tier-badge">Premium</div>
                         <div class="tier-icon" style="color: #00d2ff;"><i class="fa fa-award"></i></div>
                         <h3 class="tier-name">Platinum Sponsor</h3>
@@ -259,7 +258,7 @@
                     </div>
 
                     <!-- Gold -->
-                    <div class="tier-card">
+                    <div class="tier-card" style="flex: 1; max-width: 400px; min-width: 320px;">
                         <div class="tier-badge">Premium</div>
                         <div class="tier-icon" style="color: #fbbf24;"><i class="fa fa-medal"></i></div>
                         <h3 class="tier-name">Gold Sponsor</h3>
@@ -272,7 +271,7 @@
                     </div>
 
                     <!-- Silver -->
-                    <div class="tier-card">
+                    <div class="tier-card" style="flex: 1; max-width: 400px; min-width: 320px;">
                         <div class="tier-icon" style="color: #94a3b8;"><i class="fa fa-medal"></i></div>
                         <h3 class="tier-name">Silver Sponsor</h3>
                         <div class="tier-price">₹50,000</div>
@@ -282,11 +281,7 @@
                             <div><i class="fa fa-check"></i> <span>Newsletter Featured Logo</span></div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Row 2: Secondary Tiers (2 Centered Cards) -->
-                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
-                    
                     <!-- Bronze -->
                     <div class="tier-card" style="flex: 1; max-width: 400px; min-width: 320px;">
                         <div class="tier-icon" style="color: #b45309;"><i class="fa fa-medal"></i></div>
@@ -309,6 +304,7 @@
                             <div><i class="fa fa-comment-dots"></i> <span>Customized contribution options available</span></div>
                         </div>
                     </div>
+
                 </div>
             </section>
 
@@ -317,15 +313,16 @@
                 <div style="text-align: center;">
                     <h2 style="font-size: 1.5rem; color: var(--accent); margin-bottom: 1rem;">Sponsorship Inquiries</h2>
                     <p style="margin-bottom: 2rem; color: var(--text-muted);">For sponsorship confirmation and further discussions, kindly contact the organising committee:</p>
-                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
-                        <div style="background: var(--glass); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); min-width: 250px;">
-                            <i class="fa fa-phone" style="color: var(--accent); margin-bottom: 0.5rem;"></i>
-                            <div style="font-size: 1.1rem; font-weight: 600;">7307500835</div>
-                        </div>
-                        <div style="background: var(--glass); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); min-width: 250px;">
-                            <i class="fa fa-envelope" style="color: var(--accent); margin-bottom: 0.5rem;"></i>
-                            <div style="font-size: 1.1rem; font-weight: 600; font-family: monospace;">yuvraj.singh2017ys@gmail.com</div>
-                            <div style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">i3cset2025@galgotiacollege.edu</div>
+                    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 2rem;">
+                        <a href="tel:7307500835" style="background: var(--glass); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); flex: 1; min-width: 280px; max-width: 320px; transition: var(--transition); text-decoration: none; display: block;">
+                            <i class="fa fa-phone" style="color: var(--accent); margin-bottom: 0.5rem; display: block;"></i>
+                            <div style="font-size: 1.1rem; font-weight: 600; color: var(--text);">7307500835</div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Contact Coordinator</div>
+                        </a>
+                        <div style="background: var(--glass); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); flex: 1; min-width: 280px; max-width: 320px; overflow-wrap: break-word;">
+                            <i class="fa fa-envelope" style="color: var(--accent); margin-bottom: 0.5rem; display: block;"></i>
+                            <div style="font-size: 1.05rem; font-weight: 600; overflow-wrap: break-word; color: var(--text);">yuvraj.singh2017ys@gmail.com</div>
+                            <div style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.8rem; border-top: 1px solid var(--glass-border); padding-top: 0.5rem;">i3cset2025@galgotiacollege.edu</div>
                         </div>
                     </div>
                 </div>
