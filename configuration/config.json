@@ -1,0 +1,145 @@
+{
+	"meta":{
+		"conferenceYear": 2026,
+		"dateStart": "2026-09-30",
+		"dateEnd": "2026-10-01",
+		"conferenceName": "I3CSET-2026"
+	},
+	"header":{
+		"title" : "I3CSET-2026",
+		"subtitle" : "2nd International Conference on Computing, Communication and Sustainable Energy Technologies (I3CSET-2026)",
+		"dateTitle" : "30 September – 01 October 2026",
+		"locationPlaceName": "Galgotias College of Engineering and Technology",
+		"locationAreaName": "Greater Noida, India",
+		"bannerImage":"images/hotel1-banner.jpg",
+		"bannerTopPlacement" : "-310px",
+		"bannerRightPlacement" : "-640px"
+	},
+	"socialMediaLinks":{
+		"facebook":"#",
+		"twitter":"#"
+	},
+	"dates":[
+		{
+			"title":"Submission Deadline",
+			"date": "April 30, 2026",
+			"showInNavBar": true
+		},
+		{
+			"title":"Acceptance Alert",
+			"date": "May 15, 2026",
+			"showInNavBar": true
+		},
+		{
+			"title":"Registration Closes",
+			"date": "May 30, 2026",
+			"showInNavBar": true
+		},
+		{
+			"title":"Final Submission",
+			"date": "TBA",
+			"showInNavBar": true
+		},
+		{
+			"title":"I3CSET-2026 Conference Dates",
+			"date": "30 September – 01 October 2026",
+			"showInNavBar": false
+		}
+	],
+	"footerLinks":{
+		"firstSection":{
+			"title":"conference",
+			"links":[
+				{
+					"name": "Technical Program",
+					"link": "technical-program.html",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Plenary Speakers",
+					"link": "plenary-speakers.html",
+					"openInNewWindow": false
+				},
+
+				{
+					"name": "Social Events ",
+					"link": "events.html",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Panel Session",
+					"link": "panel-session.html",
+					"openInNewWindow": false
+				}
+			]
+		},
+		"secondSection":{
+			"title":"destination",
+			"links":[
+				{
+					"name": "Local Information",
+					"link": "local-information.html",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Map",
+					"link": "#",
+					"openInNewWindow": true
+				}
+			]
+		},
+		"thirdSection":{
+			"title":"author links",
+			"links":[
+				{
+					"name": "Article Templates",
+					"link": "http://css.paperplaza.net/conferences/support/support.php",
+					"openInNewWindow": true
+				},
+				{
+					"name": "PaperPlaza",
+					"link": "http://css.paperplaza.net",
+					"openInNewWindow": true
+				},
+				{
+					"name": "Program Chairs",
+					"link": "organizers.html",
+					"openInNewWindow": false
+				}
+			]
+		},
+		"fourthSection":{
+			"title":"sitemap",
+			"links":[
+				{
+					"name": "Home",
+					"link": "index.html",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Organizers",
+					"link": "organizers.html",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Events",
+					"link": "events.html",
+					"openInNewWindow": false
+				},
+				{
+					"name": "Registration",
+					"link": "registration.html",
+					"openInNewWindow": false
+				}
+			]
+		}
+	},
+	"newsTicker":[
+		{
+			"content":"Conference registration is now OPEN!!  Click here.",
+			"link":"registration.html",
+			"openInNewWindow": false
+		}
+
+	]
+}
