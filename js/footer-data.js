@@ -25,7 +25,7 @@ const footerHTML = `
                             class="fab fa-instagram"></i> Instagram</a></li>
                 <li><a href="https://www.linkedin.com/company/galgotias-college-of-engineering-and-technology-greater-noida/"
                         target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                <li><a href="mailto:i3cset2026@galgotiacollege.edu"><i class="fa fa-envelope"></i> Email Us</a></li>
+                <li><a href="mailto:i3cset.2026@galgotiacollege.edu"><i class="fa fa-envelope"></i> Email Us</a></li>
             </ul>
             <p style="margin-top: 2rem; color: var(--text-muted); font-size: 0.8rem;">
                 &copy; 2026 I3CSET Conference. All Rights Reserved.
