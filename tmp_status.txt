@@ -1,0 +1,32 @@
+On branch main
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+	modified:   committe.html
+	deleted:    images/Organizing/SIDDHANT.png
+	renamed:    images/Organizing/Alok-Kumar_ECE.jpg -> images/organizing/Alok-Kumar_ECE.jpg
+	renamed:    images/Organizing/Anil-Kumar-Sethi.jpg -> images/organizing/Anil-Kumar-Sethi.jpg
+	renamed:    images/Organizing/DR-SHILPEE_ECE.jpg -> images/organizing/DR-SHILPEE_ECE.jpg
+	renamed:    images/Organizing/Dr-Monika-Bhatnagar_ECE.jpeg -> images/organizing/Dr-Monika-Bhatnagar_ECE.jpeg
+	renamed:    images/Organizing/Dr. Dhruv Galgotia.webp -> images/organizing/Dr. Dhruv Galgotia.webp
+	renamed:    images/Organizing/Dr.-Amrita-Rai.png -> images/organizing/Dr.-Amrita-Rai.png
+	renamed:    images/Organizing/Jaspreet-Kaur.jpg -> images/organizing/Jaspreet-Kaur.jpg
+	renamed:    images/Organizing/Mr. Amanpreet Singh Saini.webp -> images/organizing/Mr. Amanpreet Singh Saini.webp
+	renamed:    images/Organizing/Prof. (Dr.) Brijesh Singh.jpeg -> images/organizing/Prof. (Dr.) Brijesh Singh.jpeg
+	renamed:    images/Organizing/Shri Suneel Galgotia.webp -> images/organizing/Shri Suneel Galgotia.webp
+	renamed:    images/Organizing/rl sir.jpeg -> images/organizing/rl sir.jpeg
+	renamed:    images/Organizing/vasu.jpg -> images/organizing/vasu.jpg
+	renamed:    images/Organizing/yuvraj.jpg -> images/organizing/yuvraj.jpg
+	modified:   index.html
+
+Unmerged paths:
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+	deleted by us:   images/organizing/Dr. R. L. Yadav.jpeg
+	added by us:     images/organizing/SIDDHANT.png
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	tmp_status.txt
+
